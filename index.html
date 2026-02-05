@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omar Bin Khattab Company SKPS</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+    }
+    header {
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .logo-circle {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: radial-gradient(circle at top, #ffd700, #ff8c00);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: #000;
+      font-size: 20px;
+      box-shadow: 0 0 20px rgba(255,215,0,0.6);
+    }
+    nav a {
+      margin-left: 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      animation: fadeIn 2s ease;
+    }
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+    .services {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: rgba(255,255,255,0.08);
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    .badge {
+      display: inline-block;
+      background: #00ffcc;
+      color: #000;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+    .contact {
+      padding: 60px 20px;
+      text-align: center;
+      background: rgba(0,0,0,0.3);
+    }
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      border-radius: 30px;
+      background: #25D366;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contact a.gmail { background: #ea4335; }
+    .contact a.fb { background: #1877f2; }
+    .contact a.ig { background: #e1306c; }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      opacity: 0.8;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-circle">OBK</div>
+    <div>
+      <strong>Omar Bin Khattab Company SKPS</strong><br />
+      <small>عمر بن خطاب کمپنی SKPS</small>
+    </div>
+  </div>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Future-Ready Digital Company</h1>
+  <p>
+    We provide smart, reliable and people-focused services for modern life.<br />
+    ہم جدید زندگی کے لیے قابلِ اعتماد اور عوام دوست خدمات فراہم کرتے ہیں۔
+  </p>
+  <p style="margin-top:15px; font-style:italic; opacity:0.85;">
+    "From daily needs to digital future — serving Pakistan with trust."
+    <br />
+    "روزمرہ ضروریات سے ڈیجیٹل مستقبل تک — اعتماد کے ساتھ پاکستان کی خدمت۔"
+  </p>
+</section>
+
+<section id="services" class="services">
+  <!-- Professional Company Line -->
+  <div class="card" style="grid-column:1/-1; text-align:center;">
+    <h2>About Our Services | ہماری خدمات</h2>
+    <p>
+      Omar Bin Khattab Company SKPS is built to simplify life by combining traditional services with modern technology.
+      Our mission is to deliver quality, convenience, and trust directly to people’s homes.
+      <br /><br />
+      عمر بن خطاب کمپنی SKPS کا مقصد روایتی خدمات کو جدید ٹیکنالوجی کے ساتھ جوڑ کر زندگی کو آسان بنانا ہے۔
+      ہم معیار، سہولت اور اعتماد کو براہِ راست آپ کے گھر تک پہنچاتے ہیں۔
+    </p>
+  </div>
+  <div class="card">
+    <span class="badge">Available Now</span>
+    <h3>Apni Milk Shop</h3>
+    <p>
+      Fresh Milk, Lassi, Tea & Curd delivered at your home.<br />
+      تازہ دودھ، لسی، چائے اور دہی گھر بیٹھے حاصل کریں۔
+    </p>
+  </div>
+
+  <div class="card">
+    <span class="badge">Coming Soon</span>
+    <h3>Abra Pay</h3>
+    <p>
+      Digital wallet & money transfer service.<br />
+      ڈیجیٹل والٹ اور منی ٹرانسفر سروس۔
+    </p>
+  </div>
+
+  <div class="card">
+    <span class="badge">Coming Soon</span>
+    <h3>Working Hours</h3>
+    <p>
+      Earn money from home with flexible work.<br />
+      گھر بیٹھے کام کریں اور پیسہ کمائیں۔
+    </p>
+  </div>
+
+  <div class="card">
+    <span class="badge">Coming Soon</span>
+    <h3>Premium</h3>
+    <p>
+      TV channels & online movies in one place.<br />
+      ٹی وی چینلز اور آن لائن موویز۔
+    </p>
+  </div>
+
+  <div class="card">
+    <span class="badge">Coming Soon</span>
+    <h3>Move Away</h3>
+    <p>
+      Travel & transport services across Pakistan.<br />
+      پاکستان بھر میں بہترین سفری سہولت۔
+    </p>
+  </div>
+</section>
+
+<!-- Anime Mascot Section -->
+<section class="services">
+  <div class="card" style="grid-column:1/-1; text-align:center;">
+    <h2>Our Mascot | ہمارا اینیمی کردار</h2>
+    <p>
+      Meet <strong>OBK Hero</strong> — the animated symbol of trust, speed, and service.
+      This character represents our commitment to honest work, fast delivery, and a brighter digital future.
+      <br /><br />
+      <strong>OBK ہیرو</strong> ہمارے اعتماد، تیز رفتار سروس اور ایمانداری کی علامت ہے۔
+      یہ اینیمی کردار ایک روشن ڈیجیٹل مستقبل اور عوامی خدمت کی نمائندگی کرتا ہے۔
+    </p>
+    <p style="opacity:0.8; font-style:italic;">
+      (Anime character illustration will be added in future updates)
+    </p>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Us | ہم سے رابطہ کریں</h2>
+  <a href="https://wa.me/92325632666">WhatsApp</a>
+  <a href="mailto:yourcompany@gmail.com" class="gmail">Gmail</a>
+  <a href="#" class="fb">Facebook</a>
+  <a href="#" class="ig">Instagram</a>
+</section>
+
+<footer>
+  © 2026 Omar Bin Khattab Company SKPS — All Rights Reserved
+</footer>
+
+</body>
+</html>
